@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="life style cloth shopping" />
+    <link rel="stylesheet" href="./style/loading.css" />
+    <link rel="stylesheet" href="./style/Reset.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link href="./src/img/fa-icon.png" rel="shortcut icon" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JTRN4RHQ4G"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-JTRN4RHQ4G");
+    </script>
+    <title>Stylish</title>
+  </head>
+  <body>
+    <header>
+      <div class="loadingPage">
+        <div class="loader">
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__ball"></div>
+          <p>Loading ...</p>
+        </div>
+      </div>
+
+      <div class="div"></div>
+      <a href="index.html">
+        <img alt="stylish logo" src="./src/img/logo.png" class="btn_logo01" />
+      </a>
+      <nav>
+        <div class="item">
+          <a href="./?tag=women" class="women">女裝</a>
+        </div>
+        <div class="item">
+          <a href="./?tag=men" class="men">男裝</a>
+        </div>
+        <div class="item">
+          <a href="./?tag=accessories" class="accessories">配件</a>
+        </div>
+      </nav>
+      <div class="feature">
+        <form method="GET" action="./">
+          <input type="text" class="search" name="tag" />
+        </form>
+        <a href="./pages/cart.html" class="cart">
+          <div class="cart-qt">0</div>
+        </a>
+        <div class="userid">
+          <img alt="mobileIcon" src="./src/img/member.png" />
+        </div>
+      </div>
+    </header>
+    <div class="mobilefeature">
+      <a href="./pages/cart.html" class="mobilecart">
+        <div class="cart">
+          <div class="cart-qt">0</div>
+        </div>
+        <h2>購物車</h2>
+      </a>
+
+      <div class="userid">
+        <img alt="mobileIcon" src="./src/img/member-mobile.png" />
+        <h2>會員</h2>
+      </div>
+    </div>
+    <div class="mobileList">
+      <div class="item">
+        <a href="./?tag=women" class="women">女裝</a>
+      </div>
+      <div class="item">
+        <a href="./?tag=men" class="men">男裝</a>
+      </div>
+      <div class="item">
+        <a href="./?tag=accessories" class="accessories">配件</a>
+      </div>
+    </div>
+    <div id="banner"></div>
+    <div class="productlist">
+      <!-- <a class="product">
+        <img src="./src/img/testimg.jpg" alt="" class="productimg" />
+        <div class="texture"></div>
+        <div class="productinfo">
+          <h3 class="name">xxxxx</h3>
+          <h3 class="price">TWD .590</h3>
+        </div>
+      </a>
+      <a class="product">
+        <img src="./src/img/testimg.jpg" alt="" class="productimg" />
+        <div class="texture"></div>
+        <div class="productinfo">
+          <h3 class="name">xxxxx</h3>
+          <h3 class="price">TWD .590</h3>
+        </div>
+      </a>
+      <a class="product">
+        <img src="./src/img/testimg.jpg" alt="" class="productimg" />
+        <div class="texture"></div>
+        <div class="productinfo">
+          <h3 class="name">xxxxx</h3>
+          <h3 class="price">TWD .590</h3>
+        </div>
+      </a> -->
+    </div>
+    <footer>
+      <div class="view">
+        <nav>
+          <div class="link">
+            <div class="item"><a href="#">關於 Stylish</a></div>
+            <div class="item"><a href="#">服務條款</a></div>
+            <div class="item"><a href="#">隱私政策</a></div>
+          </div>
+          <div class="link linklast">
+            <div class="item"><a href="#">聯絡我們</a></div>
+            <div class="item"><a href="#">FAQ</a></div>
+          </div>
+        </nav>
+        <div class="social">
+          <a href="#"><img src="./src/img/line.png" alt="lineicon" /></a>
+          <a href="#"><img src="./src/img/twitter.png" alt="twittericon" /></a>
+          <a href="#"
+            ><img src="./src/img/facebook.png" alt="facebookicon"
+          /></a>
+        </div>
+        <span>© 2018. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script defer src="./JS/lib.js"></script>
+    <script defer src="./JS/login.js"></script>
+    <script defer src="./JS/index.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.0.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.0.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>
